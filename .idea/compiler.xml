@@ -8,16 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Cloud" />
         <module name="erueka" />
+        <module name="provider-1" />
         <module name="ribbon" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Cloud" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="erueka" options="-parameters" />
+      <module name="provider-1" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>
   </component>
